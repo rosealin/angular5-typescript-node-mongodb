@@ -1,0 +1,18 @@
+
+<div class="container">
+  <aside [ngClass]="'sider'">
+    <ul>
+      
+      <li>
+        <a routerLink="/user/list" routerLinkActive="active">user</a>
+      </li>
+      <li>
+        <a routerLink="home" routerLinkActive="active">home</a>
+      </li>
+      <!-- <li>
+        <a routerLink="/user/new-user" routerLinkActive="active">new-user</a>
+      </li> -->
+    </ul>
+  </aside>
+  <router-outlet></router-outlet>
+</div>

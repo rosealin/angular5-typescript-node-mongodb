@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex:1;
+}
+ul{
+  list-style-type: none;
+}
+.sider{
+  width:200px;
+  margin-right:40px;
+  border-right:1px solid #ddd;
+}
+.sider li{
+  height:40px;
+  line-height: 40px;
+}
+.sider li a {
+  color: #000;
+}
+.sider li a.active {
+  color: red;
+}

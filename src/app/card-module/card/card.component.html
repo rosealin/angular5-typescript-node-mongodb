@@ -1,0 +1,8 @@
+<p class="card">
+  <span class="card-block">
+    <span class="card-text">name: {{ card.name }}</span> &nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="card-text">age: {{ card.age }}</span>
+    <span class="card-text">interests: {{ card.interests }}</span>
+    <span class="card-text" *ngIf="card.userInfo">userInfo.name: {{ card.userInfo.name }}</span>
+  </span>
+</p>
